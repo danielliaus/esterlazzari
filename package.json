@@ -1,8 +1,7 @@
 {
-  "homepage": "https://danielliaus.github.io/esterlazzari/",
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": "false",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
@@ -30,5 +29,6 @@
     "popper.js": "^1.16.1",
     "save-dev": "^0.0.1-security",
     "vanilla-tilt": "^1.7.2"
-  }
+  },
+  "homepage": "."
 }

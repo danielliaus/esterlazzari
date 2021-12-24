@@ -10,3 +10,47 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
+/* line 1, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0; }
+
+/* line 5, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab.active {
+  background-color: #2D859E; }
+
+/* line 8, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab {
+  background-color: #20738D;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 50%;
+  text-align: center;
+  padding: 15px 0;
+  -webkit-transition: background 1s;
+  transition: background 1s; }
+  /* line 14, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+  .tab:hover {
+    background-color: #2D859E; }
+
+/* line 18, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab:first-child {
+  border-radius: 10px 0 0 0; }
+
+/* line 21, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab:last-child {
+  border-radius: 0 10px 0 0; }
+
+/* line 24, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab-content {
+  border-radius: 0 0 10px 10px;
+  z-index: 9999; }
+
+/* line 28, /Users/ick.kramer/code/resume/source/stylesheets/components/_tabs.scss */
+.tab-background {
+  background-color: rgba(67, 144, 168, 0.7);
+  padding: 0 0 20px 0; }

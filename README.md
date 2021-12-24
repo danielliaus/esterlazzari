@@ -1,31 +1,4 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/simplefolio)
-
-## A minimal portfolio template for Developers!
-
-<h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
-  <br>
-</h2>
-
-## Features
-
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Optimized with Parcel\
-⚡️ Well organized documentation
-
-To view the demo: **[click here](https://the-simplefolio.netlify.app/)**
-
----
-
-## Why do you need a portfolio? ☝️
-
-- Professional way to showcase your work
-- Increases your visibility and online presence
-- Shows you’re more than just a resume
+# Portfolio Website Instructions 
 
 ## Getting Started 🚀
 
@@ -51,20 +24,6 @@ yarn@v1.22.10 or higher
 
 ## How To Use 🔧
 
-From your command line, first clone Simplefolio:
-
-```bash
-# Clone the repository
-$ git clone https://github.com/cobidev/simplefolio
-
-# Move into the repository
-$ cd simplefolio
-
-# Remove the current origin repository
-$ git remote remove origin
-```
-
-After that, you can install the dependencies either using NPM or Yarn.
 
 Using NPM: Simply run the below commands.
 

@@ -9,7 +9,6 @@
     "deploy": "gh-pages -d dist",
     "start": "parcel",
     "build": "parcel build --public-url ./"
-
   },
   "repository": {
     "type": "git",
@@ -30,5 +29,5 @@
     "save-dev": "^0.0.1-security",
     "vanilla-tilt": "^1.7.2"
   },
-  "publicUrl" : "./"
+  "publicUrl": "./"
 }

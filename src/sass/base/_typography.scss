@@ -10,8 +10,10 @@ a {
   font-size: $default-font-size;
 }
 
+a.inlinelink {
+  text-decoration: underline;
+}
 a,
-a:link,
 a:hover,
 a:visited,
 a:active {
@@ -19,8 +21,11 @@ a:active {
 }
 
 a:hover {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
+
+
+
 
 .section-title {
   margin: 0px;

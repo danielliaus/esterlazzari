@@ -25,7 +25,7 @@ export const targetElements = [
   {
     element: ".hero-cta",
     animation: {
-      delay: 1000,
+      delay: 500,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
@@ -39,14 +39,14 @@ export const targetElements = [
   {
     element: ".about-wrapper__info",
     animation: {
-      delay: 1000,
+      delay: 700,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".research-wrapper__text",
     animation: {
-      delay: 500,
+      delay: 400,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
@@ -58,9 +58,16 @@ export const targetElements = [
     },
   },
   {
+    element: ".projects-wrapper",
+    animation: {
+      delay: 700,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
     element: ".contact-wrapper",
     animation: {
-      delay: 800,
+      delay: 500,
       origin: "bottom",
     },
   },

@@ -1,15 +1,13 @@
 #projects {
-  background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem 0;
+  background-color: $white-color;
+  color: $dark-blue-text;
   margin-top: -10rem;
-  margin-bottom: -1px;
-  color: $white-color;
+  padding-top: 15rem;
+
+  @include respond(tab-land) {
+    margin-top: 0;
+    padding-top: 5rem;
+  }
 
   @include respond(tab-land) {
     padding: 10rem 0;
@@ -19,21 +17,36 @@
   }
 
   .projects-wrapper {
+    margin-bottom: 15rem;
     margin-top: 3.2rem;
     padding: 0 2rem;
     backface-visibility: hidden;
 
+    .row {
+      margin-bottom: 6rem;
+      justify-content: space-evenly;
+
+      @include respond(phone) {
+        margin-bottom: 4rem;
+      }
+    }
     &__text {
       margin-bottom: 2.5rem;
     }
 
     &__text,
     a {
-      font-size: 2.4rem;
 
       @include respond(phone) {
         font-size: 2rem;
       }
     }
+  }
+  .project-cards {
+    width: 80%;
+    height: auto;
+  }
+  .card-projects-title {
+    font-weight: bold;
   }
 }

@@ -6,13 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "start": "parcel",
     "build": "parcel build --public-url ./"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielliaus/esterlazzari"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
